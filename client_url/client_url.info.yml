@@ -1,0 +1,10 @@
+name: Client Url
+type: module
+description: 'A custom field type for a list of URLs from a txt file.'
+core: 8.x
+field_storage_config:
+  client_url:
+    type: string
+    settings:
+      max_length: 255
+    module: client_url

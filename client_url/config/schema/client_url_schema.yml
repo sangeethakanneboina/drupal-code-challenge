@@ -1,0 +1,28 @@
+client_url.settings:
+  type: mapping
+  label: 'Client URL Field Settings'
+  mapping:
+    allowed_values:
+      type: sequence
+      label: 'Allowed Values'
+      description: 'A list of URLs that can be selected.'
+      sequence:
+        - type: string
+          label: 'URL'
+          description: 'A URL that can be selected.'
+
+field.widget.settings.client_url_widget:
+  type: mapping
+  label: 'Client URL Widget settings'
+  mapping:
+    allowed_values:
+      type: sequence
+      label: 'Allowed values'
+      sequence:
+        - type: string
+
+client_url_formatter_settings:
+  type: mapping
+  label: 'Client URL Formatter settings'
+  mapping: {}
+

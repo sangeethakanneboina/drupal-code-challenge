@@ -1,0 +1,5 @@
+http://example.com
+https://google.com
+https://facebook.com
+http://twitter.com
+https://linkedin.com
